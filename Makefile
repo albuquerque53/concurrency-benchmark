@@ -1,3 +1,9 @@
+up:
+	docker-compose -f dev/docker-compose.yml up
+down:
+	docker-compose -f dev/docker-compose.yml down
+app:
+	docker exec -it bench_api /bin/bash
 run:
 	go run ./cmd/main.go
 bench_default:
