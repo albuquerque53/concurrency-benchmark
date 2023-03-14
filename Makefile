@@ -1,4 +1,4 @@
-up:
+start:
 	docker-compose -f dev/docker-compose.yml up
 down:
 	docker-compose -f dev/docker-compose.yml down

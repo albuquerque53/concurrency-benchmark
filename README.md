@@ -16,7 +16,7 @@ I've added some shortcuts in Makefile, so that you can run benchmarks commands s
 
 1. Build container:
 ```
-make up
+make start
 ```
 
 2. Get into app & run API:
