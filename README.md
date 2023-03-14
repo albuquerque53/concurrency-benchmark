@@ -1,18 +1,18 @@
-# Concurrency Benchmark
+# Concurrency Benchmark :bicyclist:
 
-## About the project
+## :mag: About the project
 
 This is an simple API that searches mocked users and send them to an external API.<br>
-> Each API call longs 3 seconds.
+> Each API call lasts 3 seconds.
 
 **There are two endpoints:**
 1. `/default`: Will send the users to external API in a procedural way.
 2. `/concurrent`: Will send the users to external API using concurrency.
 
 I've added some shortcuts in Makefile, so that you can run benchmarks commands simply.
-> btw, I'm using the go-wrk to run benchmarks the endpoints.
+> btw, I'm using the [go-wrk](https://github.com/tsliwowicz/go-wrk) to run benchmarks the endpoints.
 
-## How to run?
+## :runner: How to run it?
 
 1. Build container:
 ```
@@ -24,7 +24,7 @@ make start
 make app && make run
 ```
 
-## Benchmark
+## :watch: Benchmark
 
 1. To benchmark the "default" route:
 ```
